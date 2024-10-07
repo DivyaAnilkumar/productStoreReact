@@ -22,11 +22,11 @@ const About = () => {
         
         </IconButton>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-           Fake Story
+           Product App
         </Typography>
        
-        <Link to ={ '/'}><Button color="inherit">Home</Button></Link>
-        <Link to ={'/add'}> <Button color="inherit">Add</Button></Link>
+        <Link to ={ '/'}><Button variant="contained" >Home</Button></Link>
+        <Link to ={'/add'}> <Button variant="contained">Add</Button></Link>
       </Toolbar>
     </AppBar>
   </Box>
