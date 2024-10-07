@@ -3,9 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Home } from './Components/Home'
-//import Add  from './Components/Add'
+import Add  from './Components/Add'
 import { Route, Routes } from 'react-router-dom'
 import About from './Components/About'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,7 @@ function App() {
       <About/>
              <Routes>
         <Route path='/' element={<Home/>}></Route>
-       {/* <Route path='/add' element={<Add/>}></Route> */}
+       <Route path='/add' element={<Add/>}></Route>
        </Routes>
     
       {/* <Home/>
